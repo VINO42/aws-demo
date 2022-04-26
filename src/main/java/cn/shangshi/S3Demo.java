@@ -16,8 +16,8 @@ public class S3Demo {
     public static void main(String[] args) {
         System.out.println("开始进入main方法.....");
         AmazonS3 conn;
-        String accessKey = "13448655";
-        String secretKey = "IJcjfswDFRWQCHKhbyGKkRocToWuyUlH";
+        String accessKey = "key";
+        String secretKey = "key";
         String endpoint = "http://10.12.184.155:8000/";
         String bucketName = "test127";
         String key = "hello123.txt";
